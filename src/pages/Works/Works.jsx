@@ -20,7 +20,7 @@ import AllProjectsComponent from '../../components/all-projects-component/AllPro
 const Works = () => {
 	const email = 'juancarlosam@live.com';
 	return (
-		<Section bg={'none'} height={'100VH'} title={''}>
+		<Section bg={'none'} height={'auto'} title={''}>
 			<StyledWorksContainer>
 				<StyledContactInfo>
 					<Text

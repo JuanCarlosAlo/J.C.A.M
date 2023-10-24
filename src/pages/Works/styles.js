@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 
 const StyledWorksContainer = styled.div`
+padding-top: 5rem;
 display: flex;
 align-items: flex-start;
 flex-direction: column;
@@ -33,14 +34,20 @@ height: 100%;
 
 const StyledProyectsContainer = styled.div`
 overflow-y: scroll;
-height: 400px;
+height: 280px;
+@media screen and (min-width: 768px) {
+    height: 400px;
+    }
 `
 const StyledIconContainer = styled.div`
-margin-top: 4REM;
+margin-top:1REM;
 display: flex;
 align-items: center;
 justify-content: flex-start;
 gap: 2.5REM;
 width: 350px;
+@media screen and (min-width: 768px) {
+    margin-top: 4REM;
+    }
 `
 export { StyledIconContainer, StyledWorksContainer, StyledContactInfo, StyledProyects, StyledProyectsContainer }
