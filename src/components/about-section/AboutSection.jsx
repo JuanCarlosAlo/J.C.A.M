@@ -15,7 +15,7 @@ const AboutSection = () => {
 		>
 			<StyledAboutMe>
 				<Text
-					align={MEASUREMENTS.ALIGN.CENTER}
+					align={MEASUREMENTS.ALIGN.LEFT}
 					color={COLORS.WHITE}
 					fontSize={MEASUREMENTS.FONTS_SIZE.KEY.TITLE}
 					text={TEXTS.ABOUT}
