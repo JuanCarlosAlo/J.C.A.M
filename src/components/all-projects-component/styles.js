@@ -15,13 +15,16 @@ align-items: flex-start;
 justify-content: flex-start;
 width: 100%;
 gap: 1REM;
-&:hover{
+@media screen and (min-width: 768px) {
+    &:hover{
     background-color: ${COLORS.UNACTIVE};
     cursor: pointer;
     ${StyledDirectionContainer}{
         display: flex;
     }
 }
+    }
+
 `
 const StyledInfo = styled.div`
 display: flex;
