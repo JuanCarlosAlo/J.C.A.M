@@ -11,7 +11,7 @@ const ProjectsSection = () => {
 	return (
 		<Section
 			bg={`none`}
-			title={'Projects'}
+			title={'Featured Projects'}
 			height={'200vh'}
 			color={COLORS.WHITE}
 		>

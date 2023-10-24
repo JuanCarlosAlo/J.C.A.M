@@ -10,7 +10,7 @@ justify-content: flex-start;
 gap: 2rem;
 height: 20%;
 
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 768px) {
     flex-direction: ${({ flex }) => flex};
     align-items: flex-start;
     width: 100%;
@@ -30,7 +30,7 @@ z-index: 10;
 
 const StyledImgContainer = styled.div`
 position: relative;
-width: 300px;
+width: 450px;
 cursor: pointer;
 &:hover{
     &::after{
@@ -38,21 +38,21 @@ cursor: pointer;
         position: absolute;
         top: 0;
         left: 0;
-        height: 240px;
+        height: 100%;
         width: 100%;
         background-color: ${COLORS.BLACK_TRANSPARENT};
-        @media screen and (min-width: 468px) {
-    min-width: 380px;
- max-width: 380px;
+        @media screen and (min-width: 768px) {
+    min-width: 450px;
+ max-width: 450px;
     }
     }
     ${StyledModalText}{
         display: block;
     }
 }
-@media screen and (min-width: 468px) {
-    min-width: 380px;
- max-width: 380px;
+@media screen and (min-width: 768px) {
+    min-width: 450px;
+ max-width: 450px;
     }
 `
 
@@ -66,9 +66,9 @@ object-fit: cover;
 -webkit-box-shadow: 0px 0px 33px 0px rgba(255,255,255,0.4);
 -moz-box-shadow: 0px 0px 33px 0px rgba(255,255,255,0.4);
 box-shadow: 0px 0px 33px 0px rgba(255,255,255,0.4);
-@media screen and (min-width: 468px) {
-    min-width: 380px;
- max-width: 380px;
+@media screen and (min-width: 768px) {
+    min-width: 450px;
+ max-width: 450px;
     }
 
 `

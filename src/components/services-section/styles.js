@@ -6,7 +6,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 width: 100%;
-@media screen and (min-width: 468px) {
+@media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-evenly;
     }

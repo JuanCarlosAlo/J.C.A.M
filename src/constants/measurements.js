@@ -40,15 +40,22 @@ export const MEASUREMENTS = {
 			HIGH_HD: '2rem'
 		},
 		TEXT: {
-			MOBILE: '1rem',
-			TABLET: '1.1rem',
-			DESKTOP: '1.2rem',
-			HIGH_HD: '1.5rem'
+			MOBILE: '0.8rem',
+			TABLET: '0.9rem',
+			DESKTOP: '1rem',
+			HIGH_HD: '1rem'
+		},
+		SMALL_TEXT: {
+			MOBILE: '0.7rem',
+			TABLET: '0.8rem',
+			DESKTOP: '0.9rem',
+			HIGH_HD: '1rem'
 		},
 		KEY: {
 			TITLE: 'TITLE',
 			SUBTITLE: 'SUBTITLES',
 			TEXT: 'TEXT',
+			SMALL_TEXT: 'SMALL_TEXT'
 
 		}
 	},
@@ -60,8 +67,8 @@ export const MEASUREMENTS = {
 		HEIGHT: '40px'
 	},
 	ICONS: {
-		HEIGHT: '30px',
-		WIDTH: '30px'
+		HEIGHT: '20px',
+		WIDTH: '20px'
 	},
 	PAGES: {
 		HEIGHT: '100vh'

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { COLORS } from '../../constants/colors';
 import { MEASUREMENTS } from '../../constants/measurements';
 import Logo from '../logo/logo';
@@ -11,23 +12,26 @@ const Header = () => {
 				<Logo fontSize={MEASUREMENTS.FONTS_SIZE.KEY.SUBTITLE} />
 				<nav>
 					<StyledMenu>
-						<li>
-							<Text
-								align={MEASUREMENTS.ALIGN.CENTER}
-								color={COLORS.WHITE}
-								fontSize={MEASUREMENTS.FONTS_SIZE.KEY.SUBTITLE}
-								text={'Home'}
-							/>
-						</li>
-
-						<li>
-							<Text
-								align={MEASUREMENTS.ALIGN.CENTER}
-								color={COLORS.WHITE}
-								fontSize={MEASUREMENTS.FONTS_SIZE.KEY.SUBTITLE}
-								text={'Works'}
-							/>
-						</li>
+						<Link to={'/'}>
+							<li>
+								<Text
+									align={MEASUREMENTS.ALIGN.CENTER}
+									color={COLORS.WHITE}
+									fontSize={MEASUREMENTS.FONTS_SIZE.KEY.SUBTITLE}
+									text={'Home'}
+								/>
+							</li>
+						</Link>
+						<Link to={'/works'}>
+							<li>
+								<Text
+									align={MEASUREMENTS.ALIGN.CENTER}
+									color={COLORS.WHITE}
+									fontSize={MEASUREMENTS.FONTS_SIZE.KEY.SUBTITLE}
+									text={'Works'}
+								/>
+							</li>
+						</Link>
 					</StyledMenu>
 				</nav>
 			</StyledHeaderContainer>

@@ -26,18 +26,18 @@ const ContactSection = () => {
 					text="I'm here to help!"
 				/>
 				<StyledIconContainer>
-					<Link href='https://github.com/JuanCarlosAlo' target='_blank'>
+					<a href='https://github.com/JuanCarlosAlo' target='_blank'>
 						<Icon img='/images/github.svg' />
-					</Link>
-					<Link
+					</a>
+					<a
 						href='https://www.linkedin.com/in/juan-carlos-alonso-merlo/'
 						target='_blank'
 					>
 						<Icon img='/images/linkedin.svg' />
-					</Link>
-					<Link href={`mailto:${email}`}>
+					</a>
+					<a href={`mailto:${email}`}>
 						<Icon img='/images/email.svg' />
-					</Link>
+					</a>
 				</StyledIconContainer>
 			</StyledContact>
 		</Section>

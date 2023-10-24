@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { SECONDARY_COLORS } from '../constants/colors';
+import { COLORS, SECONDARY_COLORS } from '../constants/colors';
 
 const GlobalStyles = createGlobalStyle`
   *,
@@ -64,7 +64,7 @@ video{
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
   width: 5px;
-  width: 5px;
+
 }
 *::-webkit-scrollbar-track {
   border-radius: 0px;
@@ -81,7 +81,7 @@ video{
 
 *::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: transparent;
+  background-color: ${COLORS.WHITE};
 }
 
 *::-webkit-scrollbar-thumb:hover {
