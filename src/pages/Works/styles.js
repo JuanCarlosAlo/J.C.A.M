@@ -9,7 +9,7 @@ flex-direction: column;
 justify-content: space-between;
 gap: 2rem;
 width: 100%;
-
+min-height: 100vh;
 @media screen and (min-width: 768px) {
    flex-direction: row;
     }
