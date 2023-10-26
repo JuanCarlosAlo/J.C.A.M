@@ -30,7 +30,7 @@ z-index: 10;
 
 const StyledImgContainer = styled.div`
 position: relative;
-width: 450px;
+width: 100%;
 cursor: pointer;
 &:hover{
     &::after{
